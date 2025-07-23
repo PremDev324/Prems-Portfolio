@@ -38,18 +38,18 @@ const Hero = () => {
           <div className=" flex flex-col md:flex-row items-center justify-center md:gap-44">
             {/* LEFT: Text Content */}
             <div className="text-center md:text-left max-w-xl">
-              <div className="mb-4">
-                <span className="text-primary text-lg font-medium">
-                  Hello, I'm
-                </span>
-              </div>
               {/* RIGHT: Profile Image */}
-              <div className="w-full md:w-auto flex md:hidden justify-center">
+              <div className="w-full md:w-auto flex md:hidden justify-center mt-4">
                 <img
                   src={profileImage}
                   alt="Prem Kumar"
                   className="w-64 h-80 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary shadow-lg animate-fade-in"
                 />
+              </div>
+              <div className="mb-4 mt-2">
+                <span className="text-primary text-lg font-medium">
+                  Hello, I'm
+                </span>
               </div>
 
               <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-slide-in">
