@@ -63,31 +63,26 @@ const Projects = () => {
       category: "Frontend",
     },
     {
-      title: "Brand Identity Design",
+      title: "Book Store",
       description:
-        "Complete brand identity package including logo design, business cards, and marketing materials created with Photoshop.",
+        "Complete BookStore app with search, filtert, add to cart, payment functionalities",
       image:
         "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&h=400&fit=crop",
-      technologies: ["Photoshop", "Illustrator", "Brand Design"],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Design",
+      technologies: ["JavaScript", "React.js", "CSS"],
+      liveUrl: "https://prems-bookstore.vercel.app",
+      githubUrl: "https://github.com/Prem324/Prems_Bookstore_App.git",
+      category: "Frontend",
     },
     {
-      title: "Data Analytics Dashboard",
+      title: "Amazon Clone",
       description:
-        "Interactive dashboard for data visualization and analysis with automated data entry and processing capabilities.",
+        "Amazon basic landing, dashboard page design with HTML and CSS",
       image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      technologies: [
-        "React",
-        "Chart.js",
-        "Excel Integration",
-        "Data Processing",
-      ],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "Data Entry",
+        "https://res.cloudinary.com/dlakv8a0n/image/upload/v1753291432/prems-amazon-clone-web_jdsp4i.png",
+      technologies: ["HTML", "CSS"],
+      liveUrl: "https://prems-amazon-clone-web.vercel.app",
+      githubUrl: "https://github.com/Prem324/Prems_Amazon_Clone.git",
+      category: "Frontend",
     },
   ];
 
