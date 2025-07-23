@@ -40,17 +40,7 @@ const Projects = () => {
       githubUrl: "https://github.com/Prem324/Jobby_App.git",
       category: "Frontend",
     },
-    {
-      title: "IMajor - Smart Image Resizer",
-      description:
-        "Upload images and resize them by pixels, cm, or percentages. Set custom width, height, and DPI with ease. Fast, simple, and precise.",
-      image:
-        "https://res.cloudinary.com/dlakv8a0n/image/upload/v1753289038/IMajor-Resizer_imnrzy.png",
-      technologies: ["React.js", "JavaScript", "Tailwind CSS"],
-      liveUrl: "https://prems-imajor-web.vercel.app/",
-      githubUrl: "https://github.com/Prem324/IMajor.git",
-      category: "Frontend",
-    },
+
     {
       title: "Portfolio Website",
       description:
@@ -67,7 +57,7 @@ const Projects = () => {
       description:
         "Complete BookStore app with search, filtert, add to cart, payment functionalities",
       image:
-        "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&h=400&fit=crop",
+        "https://res.cloudinary.com/dlakv8a0n/image/upload/v1753291090/Prems-BookStore_htokmf.png",
       technologies: ["JavaScript", "React.js", "CSS"],
       liveUrl: "https://prems-bookstore.vercel.app",
       githubUrl: "https://github.com/Prem324/Prems_Bookstore_App.git",
@@ -82,6 +72,17 @@ const Projects = () => {
       technologies: ["HTML", "CSS"],
       liveUrl: "https://prems-amazon-clone-web.vercel.app",
       githubUrl: "https://github.com/Prem324/Prems_Amazon_Clone.git",
+      category: "Frontend",
+    },
+    {
+      title: "IMajor - Smart Image Resizer",
+      description:
+        "Upload images and resize them by pixels, cm, or percentages. Set custom width, height, and DPI with ease. Fast, simple, and precise.",
+      image:
+        "https://res.cloudinary.com/dlakv8a0n/image/upload/v1753289038/IMajor-Resizer_imnrzy.png",
+      technologies: ["React.js", "JavaScript", "Tailwind CSS"],
+      liveUrl: "https://prems-imajor-web.vercel.app/",
+      githubUrl: "https://github.com/Prem324/IMajor.git",
       category: "Frontend",
     },
   ];
