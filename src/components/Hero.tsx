@@ -99,33 +99,33 @@ const Hero = () => {
                 className="flex justify-center md:justify-start space-x-6 mb-8 animate-slide-in"
                 style={{ animationDelay: "0.8s" }}
               >
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  <a href="https://github.com/Prem324" target="_blank">
+                <a href="https://github.com/Prem324" target="_blank">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     <Github size={24} />
-                  </a>
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  <a href="https://www.linkedin.com/in/prem324" target="_blank">
+                  </Button>
+                </a>
+                <a href="https://www.linkedin.com/in/prem324" target="_blank">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     <Linkedin size={24} />
-                  </a>
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  <a href="mailto:prem324r@gmail.com" target="_blank">
+                  </Button>
+                </a>
+                <a href="mailto:rpremkumar324@gmail.com">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     <Mail size={24} />
-                  </a>
-                </Button>
+                  </Button>
+                </a>
               </div>
             </div>
 
